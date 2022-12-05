@@ -12,7 +12,8 @@ public class Computer {
     }
 
     Computer(String model, double price, Ram ram, Hdd hdd){
-        this(model, price);
+        this.model = model;
+        this.price = price;
         this.ram = ram;
         this.hdd = hdd;
     }
